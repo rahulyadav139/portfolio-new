@@ -34,7 +34,8 @@
   transition: all 0.4s ease-in-out;
 }
 
-.project:hover {
+.project:hover,
+.project:active {
   filter: grayscale(1);
   transform: scale(1.05);
 }
@@ -49,7 +50,8 @@
   border: none;
 }
 
-.project:hover button {
+.project:hover button,
+.project:active button {
   opacity: 1;
   transform: translateY(0);
 }
