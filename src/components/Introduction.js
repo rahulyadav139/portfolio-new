@@ -13,9 +13,7 @@ const Introduction = props => {
       </p> */}
       <p>
         I am a full stack web developer. When technologies meet interest. Check
-        out my skill and portfolio.
-        <br />
-        Let’s build together, solve for better!
+        out my skill and portfolio. Let’s build together, solve for better!
       </p>
     </section>
   );
