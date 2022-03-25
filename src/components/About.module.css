@@ -1,0 +1,22 @@
+.about h1,
+.about h2,
+.about p {
+  margin-left: 10rem;
+}
+
+.icons {
+  font-size: 2rem;
+  margin-left: 10rem;
+  display: flex;
+  gap: 2rem;
+  margin-top: 2rem;
+  flex-wrap: wrap;
+}
+@media only screen and (max-width: 450px) {
+  .about h1,
+  .about h2,
+  .about p,
+  .icons {
+    margin: 0;
+  }
+}

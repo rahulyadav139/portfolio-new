@@ -1,0 +1,30 @@
+.footer {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 1.5rem;
+  padding: 1.5rem;
+}
+.footer h4 {
+  font-weight: normal;
+}
+.footer .icons {
+  font-size: 2rem;
+  display: flex;
+  gap: 2rem;
+}
+
+.footer a {
+  cursor: pointer;
+  color: inherit;
+}
+@media only screen and (max-width: 450px) {
+  .footer {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 1.5rem;
+  }
+  .footer .icons {
+    order: -1;
+  }
+}

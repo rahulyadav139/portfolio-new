@@ -1,0 +1,66 @@
+.portfolio h1,
+.portfolio h2,
+.portfolio p {
+  margin-left: 10rem;
+}
+
+.projects {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 5rem;
+  padding: 2rem;
+}
+.projectOne {
+  background: url('../assets/palasio-quiz.png');
+}
+.projectTwo {
+  background: url('../assets/palasio-designs.png');
+}
+.projectThree {
+  background: url('../assets/palasio-bank.png');
+}
+.projectFour {
+  background: url('../assets/social-links.png');
+}
+.project {
+  background-size: contain;
+  background-position: center;
+  background-repeat: no-repeat;
+  aspect-ratio: 4/3;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 2rem;
+  transition: all 0.4s ease-in-out;
+}
+
+.project:hover {
+  filter: grayscale(1);
+  transform: scale(1.05);
+}
+
+.project button {
+  opacity: 0;
+  transform: translateY(50px);
+  transition: all 0.3s ease-in-out;
+  padding: 1rem 3rem;
+  background: #3b3d42;
+  color: white;
+  border: none;
+}
+
+.project:hover button {
+  opacity: 1;
+  transform: translateY(0);
+}
+
+@media only screen and (max-width: 450px) {
+  .projects {
+    grid-template-columns: 1fr;
+  }
+  .portfolio h1,
+  .portfolio h2,
+  .portfolio p {
+    margin-left: 0;
+  }
+}
