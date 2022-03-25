@@ -12,8 +12,8 @@ const Introduction = props => {
         happier.
       </p> */}
       <p>
-        I am a web developer. When technologies meet interest. Check out my
-        skill and portfolio.
+        I am a full stack web developer. When technologies meet interest. Check
+        out my skill and portfolio.
         <br />
         Let’s build together, solve for better!
       </p>
