@@ -23,6 +23,10 @@
   border-color: #3b3d42;
 }
 
+.getInTouch p:last-child {
+  margin-top: 1rem;
+}
+
 @media only screen and (max-width: 450px) {
   .getInTouch p,
   .getInTouch a {

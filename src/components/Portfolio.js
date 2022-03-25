@@ -11,21 +11,32 @@ const Portfolio = props => {
       </p> */}
 
       <div className={styles.projects}>
-        <div className={`${styles.project} ${styles.projectOne}`}>
-          <a
-            href="https://palasio-quiz-app.vercel.app/"
-            rel="noreferrer"
-            target="_blank"
-          >
-            <button>Live</button>
-          </a>
-          <a
-            href="https://github.com/rahulyadav139/palasio-quiz-app"
-            rel="noreferrer"
-            target="_blank"
-          >
-            <button>Github</button>
-          </a>
+        <div>
+          <div className={`${styles.project} ${styles.projectOne}`}>
+            <a
+              href="https://palasio-quiz-app.vercel.app/"
+              rel="noreferrer"
+              target="_blank"
+            >
+              <button>Live</button>
+            </a>
+            <a
+              href="https://github.com/rahulyadav139/palasio-quiz-app"
+              rel="noreferrer"
+              target="_blank"
+            >
+              <button>Github</button>
+            </a>
+          </div>
+          {/* <p>
+            <b>About:</b>
+            This is a GK quiz app with alots of functionality like individual
+            user account, progress dashboard etc.
+          </p>
+          <p>
+            <b>Tech Stack:</b>
+            NextJS, MongoDB,
+          </p> */}
         </div>
         <div className={`${styles.project} ${styles.projectTwo}`}>
           <a
