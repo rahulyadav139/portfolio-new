@@ -6,7 +6,6 @@ import { useState } from 'react';
 
 const Header = props => {
   const [showMobileNav, setShowMobileNav] = useState(false);
- 
 
   const mobileNavHandler = () => {
     setShowMobileNav(prev => !prev);
@@ -32,6 +31,15 @@ const Header = props => {
       <nav className={showMobileNav ? styles.show : ''}>
         <ul>
           <li onClick={scrollToSectionHandler.bind(null, 'about')}>ABOUT</li>
+          <li>
+            <a
+              href="https://dev.to/rahulyadav139"
+              rel="noreferrer"
+              target="_blank"
+            >
+              BLOGS
+            </a>
+          </li>
           <li onClick={scrollToSectionHandler.bind(null, 'portfolio')}>
             PORTFOLIO
           </li>

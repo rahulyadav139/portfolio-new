@@ -30,13 +30,22 @@
   gap: 3rem;
 }
 
-.hero li {
+.hero li,
+.hero a {
   color: #b3b6b9;
   font-weight: 400;
   cursor: pointer;
   transition: all 0.2s ease-in-out;
 }
-.hero li:active {
+.hero a {
+  color: inherit;
+  text-decoration: none;
+}
+.hero li:hover {
+  color: black;
+}
+.hero li:active,
+.hero a:active {
   transform: scale(0.95);
 }
 
@@ -64,7 +73,8 @@
     margin-top: 5rem;
     margin-bottom: 5rem;
   }
-  .hero li {
+  .hero li,
+  .hero a {
     font-size: 2rem;
   }
 
