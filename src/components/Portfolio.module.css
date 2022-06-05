@@ -22,6 +22,18 @@
 .projectFour {
   background: url('../assets/social-links.png');
 }
+.projectFive {
+  background: url('../assets/palasio-lane.png');
+}
+.projectSix {
+  background: url('../assets/palasio-connect.png');
+}
+.projectSeven {
+  background: url('../assets/palasio-reviews.png');
+}
+.projectEight {
+  background: url('../assets/barrel-exporter.png');
+}
 .project {
   background-size: contain;
   background-position: center;

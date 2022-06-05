@@ -49,7 +49,7 @@ const Portfolio = props => {
               <button>Live</button>
             </a>
             <a
-              href="https://github.com/rahulyadav139/palasio-designs/tree/dev"
+              href="https://github.com/rahulyadav139/palasio-designs"
               rel="noreferrer"
               target="_blank"
             >
@@ -70,14 +70,14 @@ const Portfolio = props => {
         <div>
           <div className={`${styles.project} ${styles.projectThree}`}>
             <a
-              href="https://palasio-banking-website.vercel.app/welcome"
+              href="https://palasio-bank.netlify.app/welcome"
               rel="noreferrer"
               target="_blank"
             >
               <button>Live</button>
             </a>
             <a
-              href="https://github.com/rahulyadav139/palasio-banking-website"
+              href="https://github.com/rahulyadav139/palasio-bank"
               rel="noreferrer"
               target="_blank"
             >
@@ -123,6 +123,118 @@ const Portfolio = props => {
             <p>
               <b>Tech Stack:</b> ReactJS, Redux, Firebase real-time Database and
               Authentication
+            </p>
+          </div>
+        </div>
+        <div>
+          <div className={`${styles.project} ${styles.projectFive}`}>
+            <a
+              href="https://palasio-lane.netlify.app/"
+              rel="noreferrer"
+              target="_blank"
+            >
+              <button>Live</button>
+            </a>
+            <a
+              href="https://github.com/rahulyadav139/palasio-lane"
+              rel="noreferrer"
+              target="_blank"
+            >
+              <button>Github</button>
+            </a>
+          </div>
+          <div className={styles.projectDescription}>
+            <p>
+              <b>About:</b> Palasio Lane is e-commerce website to shop car decor
+              accessories.
+            </p>
+            <p>
+              <b>Tech Stack:</b> ReactJS, MongoDB, Mongoose ODM, ExpressJS,
+              NodeJS, REST API, JWT Authentication
+            </p>
+          </div>
+        </div>
+        <div>
+          <div className={`${styles.project} ${styles.projectSix}`}>
+            <a
+              href="https://palasio-connect.netlify.app/"
+              rel="noreferrer"
+              target="_blank"
+            >
+              <button>Live</button>
+            </a>
+            <a
+              href="https://github.com/rahulyadav139/palasio-connect/tree/dev"
+              rel="noreferrer"
+              target="_blank"
+            >
+              <button>Github</button>
+            </a>
+          </div>
+          <div className={styles.projectDescription}>
+            <p>
+              <b>About:</b> Palasio Connect is great for meeting new people,
+              making friends and sharing interests.
+            </p>
+            <p>
+              <b>Tech Stack:</b> ReactJS, Redux Toolkit, MongoDB, Mongoose ODM,
+              ExpressJS, NodeJS, REST API, JWT Authentication
+            </p>
+          </div>
+        </div>
+        <div>
+          <div className={`${styles.project} ${styles.projectSeven}`}>
+            <a
+              href="https://palasio-reviews.netlify.app/"
+              rel="noreferrer"
+              target="_blank"
+            >
+              <button>Live</button>
+            </a>
+            <a
+              href="https://github.com/rahulyadav139/palasio-reviews/tree/dev"
+              rel="noreferrer"
+              target="_blank"
+            >
+              <button>Github</button>
+            </a>
+          </div>
+          <div className={styles.projectDescription}>
+            <p>
+              <b>About:</b> This video libray project helps you to get car
+              reviews of various car at one place. You can manage your video
+              history at one place after signup. Enjoy Watching!
+            </p>
+            <p>
+              <b>Tech Stack:</b> ReactJS, MongoDB, Mongoose ODM, ExpressJS,
+              NodeJS, REST API, JWT Authentication
+            </p>
+          </div>
+        </div>
+        <div>
+          <div className={`${styles.project} ${styles.projectEight}`}>
+            <a
+              href="https://www.npmjs.com/package/barrel-exporter"
+              rel="noreferrer"
+              target="_blank"
+            >
+              <button>Live</button>
+            </a>
+            <a
+              href="https://github.com/rahulyadav139/barrel-exporter"
+              rel="noreferrer"
+              target="_blank"
+            >
+              <button>Github</button>
+            </a>
+          </div>
+          <div className={styles.projectDescription}>
+            <p>
+              <b>About:</b> This is a NPM package for implementing barrel
+              exporting.
+            </p>
+            <p>
+              <b>Tech Stack:</b> NPM, NodeJS
             </p>
           </div>
         </div>

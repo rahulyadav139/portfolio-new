@@ -12,8 +12,10 @@ const Introduction = props => {
         happier.
       </p> */}
       <p>
-        I am a full stack web developer. When technologies meet interest. Check
-        out my skill and portfolio. Let’s build together, solve for better!
+        I'm a full stack developer (MERN). I have always been fascinated by
+        technologies and how they have made our lives better. So learning and
+        exploring new things have always made me happier. Let’s build together,
+        solve for better!
       </p>
     </section>
   );
