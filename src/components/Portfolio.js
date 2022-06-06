@@ -70,7 +70,7 @@ const Portfolio = props => {
         <div>
           <div className={`${styles.project} ${styles.projectThree}`}>
             <a
-              href="https://palasio-bank.netlify.app/welcome"
+              href="https://palasio-bank.netlify.app/"
               rel="noreferrer"
               target="_blank"
             >
