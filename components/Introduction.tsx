@@ -1,6 +1,6 @@
 import styles from './Introduction.module.css';
 
-const Introduction = props => {
+export const Introduction = () => {
   return (
     <section id="intro" className={styles.intro}>
       <h2>Hello!</h2>
@@ -20,4 +20,3 @@ const Introduction = props => {
     </section>
   );
 };
-export default Introduction;

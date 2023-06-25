@@ -1,6 +1,6 @@
 import styles from './GetInTouch.module.css';
 
-const GetInTouch = props => {
+export const GetInTouch = () => {
   return (
     <section id="contact" className={styles.getInTouch}>
       {/* <h2>Get in touch</h2>
@@ -13,4 +13,3 @@ const GetInTouch = props => {
     </section>
   );
 };
-export default GetInTouch;

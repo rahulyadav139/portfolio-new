@@ -11,28 +11,28 @@
   padding: 2rem;
 }
 .projectOne {
-  background: url('../assets/palasio-quiz.png');
+  background: url('../public/images/palasio-quiz.png');
 }
 .projectTwo {
-  background: url('../assets/palasio-designs.png');
+  background: url('../public/images/palasio-designs.png');
 }
 .projectThree {
-  background: url('../assets/palasio-bank.png');
+  background: url('../public/images/palasio-bank.png');
 }
 .projectFour {
-  background: url('../assets/social-links.png');
+  background: url('../public/images/social-links.png');
 }
 .projectFive {
-  background: url('../assets/palasio-lane.png');
+  background: url('../public/images/palasio-lane.png');
 }
 .projectSix {
-  background: url('../assets/palasio-connect.png');
+  background: url('../public/images/palasio-connect.png');
 }
 .projectSeven {
-  background: url('../assets/palasio-reviews.png');
+  background: url('../public/images/palasio-reviews.png');
 }
 .projectEight {
-  background: url('../assets/barrel-exporter.png');
+  background: url('../public/images/barrel-exporter.png');
 }
 .project {
   background-size: contain;

@@ -1,18 +1,19 @@
+'use client';
+
 import styles from './Header.module.css';
-import signInitial from '../assets/sign-initial.png';
 
 import { GiHamburgerMenu } from 'react-icons/gi';
 import { useState } from 'react';
 
-const Header = props => {
-  const [showMobileNav, setShowMobileNav] = useState(false);
+export const Header = () => {
+  const [showMobileNav, setShowMobileNav] = useState<boolean>(false);
 
   const mobileNavHandler = () => {
     setShowMobileNav(prev => !prev);
   };
 
-  const scrollToSectionHandler = id => {
-    const el = document.getElementById(`${id}`);
+  const scrollToSectionHandler = (id: string) => {
+    const el = document.getElementById(`${id}`)!;
 
     el.scrollIntoView({ behavior: 'smooth' });
 
@@ -21,7 +22,7 @@ const Header = props => {
   return (
     <header className={styles.hero}>
       <div onClick={scrollToSectionHandler.bind(null, 'intro')}>
-        <img src={signInitial} alt="sign" />
+        <img src="/images/sign-initial.png" alt="sign" />
       </div>
 
       <div onClick={mobileNavHandler}>
@@ -51,4 +52,3 @@ const Header = props => {
     </header>
   );
 };
-export default Header;

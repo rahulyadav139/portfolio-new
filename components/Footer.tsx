@@ -1,7 +1,7 @@
 import styles from './Footer.module.css';
 import { FaTwitter, FaLinkedinIn, FaGithub } from 'react-icons/fa';
 
-const Footer = props => {
+export const Footer = () => {
   return (
     <footer className={styles.footer}>
       <h4>2020 ©. All Rights Reserved.</h4>
@@ -32,4 +32,3 @@ const Footer = props => {
     </footer>
   );
 };
-export default Footer;

@@ -54,7 +54,7 @@
   font-size: 2rem;
 }
 @media only screen and (max-width: 450px) {
-  nav {
+  .hero nav {
     visibility: hidden;
     opacity: 0;
     position: fixed;

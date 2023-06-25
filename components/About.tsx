@@ -17,7 +17,7 @@ import {
   SiSequelize,
 } from 'react-icons/si';
 
-const About = props => {
+export const About = () => {
   return (
     <section id="about" className={styles.about}>
       <h2>My Skills</h2>
@@ -45,4 +45,3 @@ const About = props => {
     </section>
   );
 };
-export default About;

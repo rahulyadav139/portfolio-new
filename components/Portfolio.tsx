@@ -1,6 +1,6 @@
 import styles from './Portfolio.module.css';
 import { FaGithub } from 'react-icons/fa';
-const Portfolio = props => {
+export const Portfolio = () => {
   return (
     <section id="portfolio" className={styles.portfolio}>
       <h2>Portfolio</h2>
@@ -242,4 +242,3 @@ const Portfolio = props => {
     </section>
   );
 };
-export default Portfolio;
